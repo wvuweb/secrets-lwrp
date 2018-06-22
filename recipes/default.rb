@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: secrets_lwrp
+# Cookbook Name:: secrets-lwrp
 # Recipe:: default
 #
 # Copyright (C) 2016 YOUR_NAME

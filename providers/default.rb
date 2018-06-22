@@ -29,7 +29,7 @@ def load_current_resource
   @current_resource = Chef::Resource::SecretsLwrp.new(@new_resource.name)
   #secrets-lwrp is the name of my cookbook.  chef will convert the name to a class so it becomes SecretsLwrp.  This is because there is a '-'
   #If I were to create something other than default, say service.rb in my provider/resource.  This would then be SecretsLwrpService.new and you
-  #would access it in your recipes with secrets_lwrp_service.
+  #would access it in your recipes with secrets-lwrp_service.
 
   #A common step is to load the current_resource instance variables with what is established in the new_resource.
   #What is passed into new_resouce via our recipes, is not automatically passed to our current_resource.

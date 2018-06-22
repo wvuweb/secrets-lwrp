@@ -84,7 +84,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
-      'recipe[secrets_lwrp::default]'
+      'recipe[secrets-lwrp::default]'
     ]
   end
 end

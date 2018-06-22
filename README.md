@@ -1,4 +1,4 @@
-# secrets_lwrp-cookbook
+# secrets-lwrp-cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -16,7 +16,7 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['secrets_lwrp']['bacon']</tt></td>
+    <td><tt>['secrets-lwrp']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -25,14 +25,14 @@ TODO: List your supported platforms.
 
 ## Usage
 
-### secrets_lwrp::default
+### secrets-lwrp::default
 
-Include `secrets_lwrp` in your node's `run_list`:
+Include `secrets-lwrp` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[secrets_lwrp::default]"
+    "recipe[secrets-lwrp::default]"
   ]
 }
 ```

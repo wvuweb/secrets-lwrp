@@ -1,3 +1,3 @@
 # 0.1.0
 
-Initial release of secrets_lwrp
+Initial release of secrets-lwrp
