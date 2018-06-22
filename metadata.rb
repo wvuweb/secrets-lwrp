@@ -1,0 +1,7 @@
+name             'secrets_lwrp'
+maintainer       'Steven Spriggs'
+maintainer_email 'steven.spriggs@mail.wvu.edu'
+license          'All rights reserved'
+description      'Installs/Configures secrets_lwrp'
+long_description 'Installs/Configures secrets_lwrp'
+version          '0.1.0'
